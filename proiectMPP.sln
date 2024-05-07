@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormandiaModel", "NormandiaModel\NormandiaModel.csproj", "{62D42C12-0F61-4514-A269-D4C92D0C14AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormandiaServer", "NormandiaServer\NormandiaServer.csproj", "{46AC2FA7-D9E3-4560-A784-0D5BEDE0649C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormandiaClient", "NormandiaClient\NormandiaClient.csproj", "{F046F4DC-A7C0-4475-AF6E-F3090B738BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormandiaPersistence", "NormandiaPersistence\NormandiaPersistence.csproj", "{C21C1BB6-D562-42DE-99FC-9E6300DABABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormandiaService", "NormandiaService\NormandiaService.csproj", "{09FE2333-41D3-4820-91EF-E05831755A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormandiaNetworking", "NormandiaNetworking\NormandiaNetworking.csproj", "{38391160-E28C-4D45-A58B-15DDAA6276E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62D42C12-0F61-4514-A269-D4C92D0C14AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D42C12-0F61-4514-A269-D4C92D0C14AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D42C12-0F61-4514-A269-D4C92D0C14AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D42C12-0F61-4514-A269-D4C92D0C14AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AC2FA7-D9E3-4560-A784-0D5BEDE0649C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AC2FA7-D9E3-4560-A784-0D5BEDE0649C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AC2FA7-D9E3-4560-A784-0D5BEDE0649C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AC2FA7-D9E3-4560-A784-0D5BEDE0649C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F046F4DC-A7C0-4475-AF6E-F3090B738BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F046F4DC-A7C0-4475-AF6E-F3090B738BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F046F4DC-A7C0-4475-AF6E-F3090B738BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F046F4DC-A7C0-4475-AF6E-F3090B738BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C21C1BB6-D562-42DE-99FC-9E6300DABABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21C1BB6-D562-42DE-99FC-9E6300DABABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21C1BB6-D562-42DE-99FC-9E6300DABABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21C1BB6-D562-42DE-99FC-9E6300DABABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FE2333-41D3-4820-91EF-E05831755A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FE2333-41D3-4820-91EF-E05831755A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FE2333-41D3-4820-91EF-E05831755A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FE2333-41D3-4820-91EF-E05831755A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38391160-E28C-4D45-A58B-15DDAA6276E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38391160-E28C-4D45-A58B-15DDAA6276E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38391160-E28C-4D45-A58B-15DDAA6276E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38391160-E28C-4D45-A58B-15DDAA6276E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
