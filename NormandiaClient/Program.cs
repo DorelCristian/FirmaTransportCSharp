@@ -47,25 +47,27 @@ namespace NormandiaClient
             }*/
             
             List<Cursa>curse=cursaDbRepository.FindAll();
-            /*foreach (Cursa cursa in curse)
+            foreach (Cursa cursa in curse)
             {
                 Console.WriteLine(cursa.Id);
                 Console.WriteLine(cursa.destinatie);
                 Console.WriteLine(cursa.data);
                 
-            }*/
+            }
+            Console.WriteLine("Rezervari--------");
             List<Rezervare>rezervari=rezervareDBRepository.FindAll();
-            /*foreach (Rezervare rezervare in rezervari)
+            foreach (Rezervare rezervare in rezervari)
             {
                 Console.WriteLine(rezervare.Id);
                 Console.WriteLine(rezervare.User.username);
-                Console.WriteLine(rezervare.Cursa.destinatie);
+                //Console.WriteLine(rezervare.Cursa.destinatie);
                 Console.WriteLine(rezervare.locuri);
-            }*/
+                Console.WriteLine("--------");
+            }
 
             SeatDBRepository seatDbRepository = new SeatDBRepository(connectionString);
             Seat sst = new Seat(rezervari[0], 3);
-            seatDbRepository.Save(sst);
+           // seatDbRepository.Save(sst);
             
             
             Rezervare re = new Rezervare(clients[0], curse[0], 2);

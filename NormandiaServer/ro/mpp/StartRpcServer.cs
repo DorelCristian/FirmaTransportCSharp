@@ -50,7 +50,7 @@ namespace NormandiaServer.ro.mpp
             IRezervareServices rezervareServices = new RezervareServices(clientDBRepository, cursaDBRepository, rezervareDBRepository, seatDBRepository);
             //ICompetitionServices competitionServices = new CompetitionServices(userRepository, competitionRepository, participantRepository, registrationRepository);
             SerialServer server=new SerialServer("127.0.0.1",44444,rezervareServices);
-            //SerialServerProto server=new SerialServerProto("127.0.0.1",44444,rezervareServices);
+           // SerialServerProto server=new SerialServerProto("127.0.0.1",44444,rezervareServices);
             server.Start();
             Console.WriteLine("Server started...");
             Console.ReadLine();
@@ -93,7 +93,7 @@ namespace NormandiaServer.ro.mpp
             }
         }
         
-        public class SerialServerProto : ConcurrentServer
+        /*public class SerialServerProto : ConcurrentServer
         {
             private IRezervareServices server;
            // private NormandiaClientRpcWorkerProto worker;
@@ -106,10 +106,10 @@ namespace NormandiaServer.ro.mpp
 
             protected override Thread createWorker(TcpClient client)
             {
-                //worker = new NormandiaClientRpcWorkerProto(server, client);
-                //return new Thread(new ThreadStart(worker.Run));
+                worker = new NormandiaClientRpcWorkerProto(server, client);
+                return new Thread(new ThreadStart(worker.Run));
                 return null;
             }
-        }
+        }*/
     }
 }

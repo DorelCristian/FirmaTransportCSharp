@@ -31,8 +31,8 @@ namespace NormandiaClient.ro.mpp
                //. Client user2=
                 if (user != null)
                 {
-                    MessageBox.Show("Log in successful!");
-                    this.Hide();
+                   // MessageBox.Show("Log in successful!");
+                  //  this.Hide();
                     hello.SetUser(user.username,user.password);
                    // var hello = new Hello(_service, this);
                     Console.WriteLine("here");

@@ -46,7 +46,9 @@ namespace NormandiaPersistence.ro.mpp
                             int id_client =Convert.ToInt32(reader["id_client"]);
                             Client c = findClient(id_client);
                             int id_cursa = Convert.ToInt32(reader["id_cursa"]);
+                            Console.WriteLine("Id cursa DBRepo"+id_cursa);
                             Cursa cursa = findCursa(id_cursa);
+                            Console.WriteLine("Cursa DBRepo"+cursa);
                            // cursa.Id = id_cursa;
                            // c.Id = id_client;
                             int locuri = Convert.ToInt32(reader["locuri"]);

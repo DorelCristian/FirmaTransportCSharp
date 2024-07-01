@@ -66,6 +66,7 @@ namespace NormandiaClient.ro.mpp
                 foreach (Rezervare rezervare in allRezervari)
                 {
                     Console.WriteLine("TEST4");
+                    
                     if (rezervare.Cursa.Id==cursa.Id)
                     {
                         Console.WriteLine("TEST5");
